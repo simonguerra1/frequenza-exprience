@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sat Jul 12 2025 13:02:35 GMT+0000 (Coordinated Universal Time)  -->
+<html
+  data-wf-page="67e6c7a70b27b7bf1f9fdfe2"
+  data-wf-site="67e6c7a70b27b7bf1f9fdf68"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>Frequenza Experience</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/webflow.css" rel="stylesheet" type="text/css" />
+    <link
+      href="css/frequenza-experience.webflow.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            'Playfair Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic',
+            'Lora:regular,500,600,700,italic,500italic,600italic,700italic',
+            'DM Serif Display:regular,italic:latin,latin-ext'
+          ]
+        }
+      })
+    </script>
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = ' w-mod-'
+        ;(n.className += t + 'js'),
+          ('ontouchstart' in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + 'touch')
+      })(window, document)
+    </script>
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/webclip.png" rel="apple-touch-icon" />
+    <!--  Keep this css code to improve the font quality -->
+    <style>
+      * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -o-font-smoothing: antialiased;
+      }
+    </style>
+    <!-- 
+  Created with love by Simon Guerra
+  Web: www.simonguerradev.com
+ -->
+  </head>
+  <body class="body">
+    <div class="page-wrapper">
+      <div bind="ab488b17-f25a-fbf8-5f54-4a3955eb57e5" class="global-styles">
+        <div
+          bind="ab488b17-f25a-fbf8-5f54-4a3955eb57e6"
+          class="style-overrides w-embed"
+        >
+          <style>
+            /* Ensure all elements inherit the color from its parent */
+            a,
+            .w-input,
+            .w-select,
+            .w-tab-link,
+            .w-nav-link,
+            .w-nav-brand,
+            .w-dropdown-btn,
+            .w-dropdown-toggle,
+            .w-slider-arrow-left,
+            .w-slider-arrow-right,
+            .w-dropdown-link {
+              text-decoration: inherit;
+              font-size: inherit;
+            }
+            /* Focus state style for keyboard navigation for the focusable elements */
+            *[tabindex]:focus-visible,
+            input[type='file']:focus-visible {
+              outline: 0.125rem solid #4d65ff;
+              outline-offset: 0.125rem;
+            }
+            /* Get rid of top margin on first element in any rich text element */
+            .w-richtext > :not(div):first-child,
+            .w-richtext > div:first-child > :first-child {
+              margin-top: 0 !important;
+            }
+            /* Get rid of bottom margin on last element in any rich text element */
+            .w-richtext > :last-child,
+            .w-richtext ol li:last-child,
+            .w-richtext ul li:last-child {
+              margin-bottom: 0 !important;
+            }
+            /* Prevent all click and hover interaction with an element */
+            .pointer-events-off {
+              pointer-events: none;
+            }
+            /* Enables all click and hover interaction with an element */
+            .pointer-events-on {
+              pointer-events: auto;
+            }
+            /* Create a class of .div-square which maintains a 1:1 dimension of a div */
+            .div-square::after {
+              content: '';
+              display: block;
+              padding-bottom: 100%;
+            }
+            /* Make sure containers never lose their center alignment */
+            .container-medium,
+            .container-small,
+            .container-large {
+              margin-right: auto !important;
+              margin-left: auto !important;
+            }
+            /* Apply "..." after 3 lines of text */
+            .text-style-3lines {
+              display: -webkit-box;
+              overflow: hidden;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+            }
+            /* Apply "..." after 2 lines of text */
+            .text-style-2lines {
+              display: -webkit-box;
+              overflow: hidden;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+            }
+            /* Adds inline flex display */
+            .display-inlineflex {
+              display: inline-flex;
+            }
+            /* These classes are never overwritten */
+            .hide {
+              display: none !important;
+            }
+            /* Remove default Webflow chevron from form select */
+            select {
+              -webkit-appearance: none;
+            }
+            @media screen and (max-width: 991px) {
+              .hide,
+              .hide-tablet {
+                display: none !important;
+              }
+            }
+            @media screen and (max-width: 767px) {
+              .hide-mobile-landscape {
+                display: none !important;
+              }
+            }
+            @media screen and (max-width: 479px) {
+              .hide-mobile {
+                display: none !important;
+              }
+            }
+            .margin-0 {
+              margin: 0rem !important;
+            }
+            .padding-0 {
+              padding: 0rem !important;
+            }
+            .spacing-clean {
+              padding: 0rem !important;
+              margin: 0rem !important;
+            }
+            .margin-top {
+              margin-right: 0rem !important;
+              margin-bottom: 0rem !important;
+              margin-left: 0rem !important;
+            }
+            .padding-top {
+              padding-right: 0rem !important;
+              padding-bottom: 0rem !important;
+              padding-left: 0rem !important;
+            }
+            .margin-right {
+              margin-top: 0rem !important;
+              margin-bottom: 0rem !important;
+              margin-left: 0rem !important;
+            }
+            .padding-right {
+              padding-top: 0rem !important;
+              padding-bottom: 0rem !important;
+              padding-left: 0rem !important;
+            }
+            .margin-bottom {
+              margin-top: 0rem !important;
+              margin-right: 0rem !important;
+              margin-left: 0rem !important;
+            }
+            .padding-bottom {
+              padding-top: 0rem !important;
+              padding-right: 0rem !important;
+              padding-left: 0rem !important;
+            }
+            .margin-left {
+              margin-top: 0rem !important;
+              margin-right: 0rem !important;
+              margin-bottom: 0rem !important;
+            }
+            .padding-left {
+              padding-top: 0rem !important;
+              padding-right: 0rem !important;
+              padding-bottom: 0rem !important;
+            }
+            .margin-horizontal {
+              margin-top: 0rem !important;
+              margin-bottom: 0rem !important;
+            }
+            .padding-horizontal {
+              padding-top: 0rem !important;
+              padding-bottom: 0rem !important;
+            }
+            .margin-vertical {
+              margin-right: 0rem !important;
+              margin-left: 0rem !important;
+            }
+            .padding-vertical {
+              padding-right: 0rem !important;
+              padding-left: 0rem !important;
+            }
+            /* Apply "..." at 100% width */
+            .truncate-width {
+              width: 100%;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+            /* Removes native scrollbar */
+            .no-scrollbar {
+              -ms-overflow-style: none;
+              overflow: -moz-scrollbars-none;
+            }
+            .no-scrollbar::-webkit-scrollbar {
+              display: none;
+            }
+          </style>
+        </div>
+        <div bind="7d5927f7-f089-ba27-d94b-8f7dbe4f8035" class="fonts w-embed">
+          <style>
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+          </style>
+          <style>
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+          </style>
+        </div>
+        <div
+          bind="db9ffaac-68c1-e2d0-2700-c63d92270932"
+          class="color-schemes w-embed"
+        >
+          <style>
+            .color-scheme-1 {
+            }
+            .color-scheme-2 {
+              --color-scheme-1--text: var(--color-scheme-2--text);
+              --color-scheme-1--background: var(--color-scheme-2--background);
+              --color-scheme-1--foreground: var(--color-scheme-2--foreground);
+              --color-scheme-1--border: var(--color-scheme-2--border);
+              --color-scheme-1--accent: var(--color-scheme-2--accent);
+            }
+            .color-scheme-3 {
+              --color-scheme-1--text: var(--color-scheme-3--text);
+              --color-scheme-1--background: var(--color-scheme-3--background);
+              --color-scheme-1--foreground: var(--color-scheme-3--foreground);
+              --color-scheme-1--border: var(--color-scheme-3--border);
+              --color-scheme-1--accent: var(--color-scheme-3--accent);
+            }
+            .color-scheme-4 {
+              --color-scheme-1--text: var(--color-scheme-4--text);
+              --color-scheme-1--background: var(--color-scheme-4--background);
+              --color-scheme-1--foreground: var(--color-scheme-4--foreground);
+              --color-scheme-1--border: var(--color-scheme-4--border);
+              --color-scheme-1--accent: var(--color-scheme-4--accent);
+            }
+            .w-slider-dot {
+              opacity: 0.2;
+            }
+            .w-slider-dot.w-active {
+              opacity: 1;
+            }
+            /* Override .w-slider-nav-invert styles */
+            .w-slider-nav-invert .w-slider-dot {
+              background-color: var(--color-scheme-1--text) !important;
+              opacity: 0.2 !important;
+            }
+            .w-slider-nav-invert .w-slider-dot.w-active {
+              background-color: var(--color-scheme-1--text) !important;
+              opacity: 1 !important;
+            }
+          </style>
+        </div>
+      </div>
+      <div
+        data-animation="over-left"
+        class="navbar3_component-2 w-nav"
+        data-easing2="ease"
+        fs-scrolldisable-element="smart-nav"
+        data-easing="ease"
+        data-collapse="medium"
+        data-w-id="90380195-57e3-ef00-44ba-9007ec12a935"
+        role="banner"
+        data-duration="400"
+        bind="90380195-57e3-ef00-44ba-9007ec12a935"
+      >
+        <div class="navbar3_container-2">
+          <div class="navbar3_menu-button w-nav-button">
+            <div class="menu-icon3">
+              <div class="menu-icon3_line-top"></div>
+              <div class="menu-icon3_line-middle"></div>
+              <div class="menu-icon3_line-bottom"></div>
+            </div>
+          </div>
+          <nav
+            role="navigation"
+            id="w-node-_90380195-57e3-ef00-44ba-9007ec12a93c-ec12a935"
+            class="navbar3_menu w-nav-menu"
+          >
+            <a
+              href="index.html"
+              aria-current="page"
+              class="navbar3_logo-link-menu w-nav-brand w--current"
+              ><img
+                loading="eager"
+                src="images/Diseño-sin-título_1.avif"
+                alt=""
+                class="navbar3_logo-2"
+            /></a>
+            <a href="que-es-frequenza.html" class="navbar3_link w-nav-link"
+              >Qué es?</a
+            >
+            <a href="quienes-somos.html" class="navbar3_link w-nav-link"
+              >Historia</a
+            >
+            <a
+              href="index.html"
+              aria-current="page"
+              class="navbar3_logo-link hide-responsive w-nav-brand w--current"
+            >
+              <div class="logo-container">
+                <div class="div-block-5">
+                  <img
+                    src="images/Disco-Ball-Sticker-by-nightlyofficial.gif"
+                    loading="lazy"
+                    alt=""
+                  />
+                </div>
+                <img
+                  width="133"
+                  loading="lazy"
+                  alt=""
+                  src="images/Diseño-sin-título_1.avif"
+                  class="navbar3_logo"
+                />
+              </div>
+            </a>
+            <a href="experiences.html" class="navbar3_link w-nav-link"
+              >Experiences</a
+            >
+            <a href="merch.html" class="navbar3_link merch w-nav-link">Merch</a>
+            <a href="contact.html" class="navbar3_link w-nav-link">Contacto</a>
+            <a
+              href="#"
+              class="navbar3_logo-link-menu hide-responsive w-nav-brand"
+              ><img
+                loading="eager"
+                src="images/Diseño-sin-título_1.avif"
+                alt=""
+                class="navbar3_logo-2"
+            /></a>
+          </nav>
+          <div class="navbar3_menu-background"></div>
+          <div class="div-block-5 mobile">
+            <img
+              src="images/Disco-Ball-Sticker-by-nightlyofficial.gif"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <main class="main-wrapper">
+        <header class="section_header33 text-color-white">
+          <div class="gallery13_component">
+            <div
+              data-delay="4000"
+              data-animation="slide"
+              class="gallery13_slider w-slider"
+              data-autoplay="false"
+              data-easing="ease"
+              data-hide-arrows="false"
+              data-disable-swipe="false"
+              data-autoplay-limit="0"
+              data-nav-spacing="3"
+              data-duration="500"
+              data-infinite="true"
+            >
+              <div class="gallery13_mask w-slider-mask">
+                <div class="gallery13_slide w-slide">
+                  <div class="div-block">
+                    <header id="header" class="header33_content">
+                      <div class="padding-section-large">
+                        <div class="text-align-center">
+                          <div class="max-width-large align-center">
+                            <div class="margin-bottom margin-small">
+                              <h1 class="heading-style-h1-2">
+                                frequenza
+                                <span class="cursiva-h1">experience</span>
+                              </h1>
+                            </div>
+                            <div class="margin-top margin-medium">
+                              <div class="button-group is-center">
+                                <div class="text-block">
+                                  Llegó la primera y
+                                  <span class="cursiva-2">única</span>
+                                  experiencia en Chile donde entras solo y sales
+                                  acompañado
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </header>
+                    <div class="gallery13_image-wrapper">
+                      <div class="div-block-2">
+                        <div class="div-block-3"></div>
+                        <div
+                          data-poster-url="videos/freq-vol-2-poster-00001.jpg"
+                          data-video-urls="videos/freq-vol-2-transcode.mp4,videos/freq-vol-2-transcode.webm"
+                          data-autoplay="true"
+                          data-loop="true"
+                          data-wf-ignore="true"
+                          class="background-video w-background-video w-background-video-atom"
+                        >
+                          <video
+                            id="039ec0b5-f761-24d9-7b96-56b929dcbdb1-video"
+                            autoplay=""
+                            loop=""
+                            style="
+                              background-image: url('videos/freq-vol-2-poster-00001.jpg');
+                            "
+                            muted=""
+                            playsinline=""
+                            data-wf-ignore="true"
+                            data-object-fit="cover"
+                          >
+                            <source
+                              src="videos/freq-vol-2-transcode.mp4"
+                              data-wf-ignore="true"
+                            />
+                            <source
+                              src="videos/freq-vol-2-transcode.webm"
+                              data-wf-ignore="true"
+                            />
+                          </video>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery13_slide w-slide">
+                  <div class="div-block">
+                    <div class="header33_content">
+                      <div class="padding-section-large">
+                        <div class="text-align-center">
+                          <div class="max-width-large align-center">
+                            <div class="margin-bottom margin-small">
+                              <h1 class="heading-style-h1-2">
+                                descubre nuestros próximos eventos
+                              </h1>
+                            </div>
+                          </div>
+                        </div>
+                        <a
+                          href="experiences.html"
+                          class="button is-alternate is-small w-button"
+                          >Experiences</a
+                        >
+                      </div>
+                    </div>
+                    <div class="gallery13_image-wrapper">
+                      <div class="div-block-2">
+                        <div class="div-block-3"></div>
+                        <img
+                          sizes="(max-width: 1280px) 100vw, 1280px"
+                          srcset="
+                            images/PHOTO-2025-04-10-14-07-22-p-500.jpg   500w,
+                            images/PHOTO-2025-04-10-14-07-22-p-800.jpg   800w,
+                            images/PHOTO-2025-04-10-14-07-22-p-1080.jpg 1080w,
+                            images/PHOTO-2025-04-10-14-07-22.jpg        1280w
+                          "
+                          alt=""
+                          src="images/PHOTO-2025-04-10-14-07-22.jpg"
+                          loading="lazy"
+                          class="gallery13_image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="gallery13_arrow hide-mobile-landscape w-slider-arrow-left"
+              >
+                <div
+                  bind="0a3ec887-f1a4-2011-53a5-b1eb8b645575"
+                  class="gallery13_arrow-icon w-embed"
+                >
+                  <svg
+                    width="100%"
+                    height="100%"
+                    viewbox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.31066 8.75001L9.03033 14.4697L7.96967 15.5303L0.439339 8.00001L7.96967 0.469676L9.03033 1.53034L3.31066 7.25001L15.5 7.25L15.5 8.75L3.31066 8.75001Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="gallery13_arrow hide-mobile-landscape w-slider-arrow-right"
+              >
+                <div
+                  bind="0a3ec887-f1a4-2011-53a5-b1eb8b645577"
+                  class="gallery13_arrow-icon w-embed"
+                >
+                  <svg
+                    width="100%"
+                    height="100%"
+                    viewbox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.6893 7.25L6.96967 1.53033L8.03033 0.469666L15.5607 8L8.03033 15.5303L6.96967 14.4697L12.6893 8.75H0.5V7.25H12.6893Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="slide-nav w-slider-nav w-round"></div>
+              <div bind="1196d696-f1a3-c453-0340-c0913ad561f2" class="w-embed">
+                <style>
+                  .w-slider-dot {
+                    color: white;
+                  }
+                  .w-slider-dot.w-active {
+                    color: blue;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </header>
+        <section
+          data-w-id="5358b30a-4313-4450-9d61-23c36b81a30b"
+          class="section_banner13"
+        >
+          <div class="padding-section-large">
+            <div class="banner13_component">
+              <h2 class="banner13_heading-top">
+                <span class="text-span-4">matchmaking</span> en base a
+              </h2>
+              <h2 class="banner13_heading-bottom">
+                inteligencia <span class="text-span-4">artificial</span>
+              </h2>
+            </div>
+          </div>
+        </section>
+        <section class="section_cta19 color-scheme-1">
+          <header
+            data-w-id="5f6692e0-5741-a711-8bea-9f5206a110ff"
+            class="section_header78"
+          >
+            <div class="padding-global main">
+              <div class="container-large">
+                <div class="div-block-4">
+                  <div class="padding-section-large border-radius">
+                    <div class="header78_component">
+                      <div class="header78_content-bottom">
+                        <div class="header78_images-layout">
+                          <div class="header78_image-list-top">
+                            <div
+                              id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11115-1f9fdfe2"
+                              class="header78_image-list"
+                            >
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11116-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11117-1f9fdfe2"
+                                  sizes="(max-width: 2339px) 100vw, 2339px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1WhatsApp-Image-2025-03-28-at-15.46.27-21.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1WhatsApp-Image-2025-03-28-at-15.46.27-21.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1WhatsApp-Image-2025-03-28-at-15.46.27-21.avif 1080w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1WhatsApp-Image-2025-03-28-at-15.46.27-21.avif 1600w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1.avif                                         2339w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11118-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11119-1f9fdfe2"
+                                  sizes="(max-width: 852px) 100vw, 852px"
+                                  alt=""
+                                  src="images/ab8021fb-3d4b-4ee3-ba84-22ea185ecc96_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/ab8021fb-3d4b-4ee3-ba84-22ea185ecc96_1ab8021fb-3d4b-4ee3-ba84-22ea185ecc96.avif 500w,
+                                    images/ab8021fb-3d4b-4ee3-ba84-22ea185ecc96_1.avif                                     852w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1111a-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1111b-1f9fdfe2"
+                                  sizes="(max-width: 1363px) 100vw, 1363px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-16.00.26-1_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.26-1_1WhatsApp-Image-2025-03-28-at-16.00.26-1.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.26-1_1WhatsApp-Image-2025-03-28-at-16.00.26-1.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.26-1_1.avif                                        1363w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1111c-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1111d-1f9fdfe2"
+                                  sizes="(max-width: 2768px) 100vw, 2768px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.46.19_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif 1080w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif 1600w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif 2000w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1.avif                                      2768w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1111e-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1111f-1f9fdfe2"
+                                  loading="lazy"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.10-6_1.avif"
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11120-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11121-1f9fdfe2"
+                                  sizes="(max-width: 1280px) 100vw, 1280px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.30-2_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.30-2_1WhatsApp-Image-2025-03-28-at-15.49.30-2.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.30-2_1.avif                                        1280w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11122-1f9fdfe2"
+                              class="header78_image-list"
+                            >
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11123-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11124-1f9fdfe2"
+                                  sizes="(max-width: 2339px) 100vw, 2339px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1WhatsApp-Image-2025-03-28-at-15.46.27-21.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1WhatsApp-Image-2025-03-28-at-15.46.27-21.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1WhatsApp-Image-2025-03-28-at-15.46.27-21.avif 1080w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1WhatsApp-Image-2025-03-28-at-15.46.27-21.avif 1600w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.27-21_1.avif                                         2339w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11125-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11126-1f9fdfe2"
+                                  sizes="(max-width: 851px) 100vw, 851px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.10-8_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.10-8_1WhatsApp-Image-2025-03-28-at-15.49.10-8.avif 500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.10-8_1.avif                                        851w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11127-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11128-1f9fdfe2"
+                                  sizes="(max-width: 1363px) 100vw, 1363px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-16.00.26-1_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.26-1_1WhatsApp-Image-2025-03-28-at-16.00.26-1.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.26-1_1WhatsApp-Image-2025-03-28-at-16.00.26-1.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.26-1_1.avif                                        1363w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11129-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1112a-1f9fdfe2"
+                                  sizes="(max-width: 2768px) 100vw, 2768px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.46.19_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif 1080w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif 1600w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1WhatsApp-Image-2025-03-28-at-15.46.19.avif 2000w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.46.19_1.avif                                      2768w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1112b-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1112c-1f9fdfe2"
+                                  loading="lazy"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.10-6_1.avif"
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1112d-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1112e-1f9fdfe2"
+                                  sizes="(max-width: 1280px) 100vw, 1280px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.31-2.jpeg"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31-2-p-500.jpeg   500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31-2-p-800.jpeg   800w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31-2-p-1080.jpeg 1080w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31-2.jpeg        1280w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="header78_image-list-bottom">
+                            <div
+                              id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11130-1f9fdfe2"
+                              class="header78_image-list"
+                            >
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11131-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11132-1f9fdfe2"
+                                  sizes="(max-width: 851px) 100vw, 851px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.09_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.09_1WhatsApp-Image-2025-03-28-at-15.49.09.avif 500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.09_1.avif                                      851w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11133-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11134-1f9fdfe2"
+                                  sizes="(max-width: 1280px) 100vw, 1280px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.30-2_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.30-2_1WhatsApp-Image-2025-03-28-at-15.49.30-2.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.30-2_1.avif                                        1280w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11135-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11136-1f9fdfe2"
+                                  sizes="(max-width: 1280px) 100vw, 1280px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.31_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31_1WhatsApp-Image-2025-03-28-at-15.49.31.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31_1WhatsApp-Image-2025-03-28-at-15.49.31.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31_1.avif                                      1280w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11137-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11138-1f9fdfe2"
+                                  sizes="(max-width: 1280px) 100vw, 1280px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.30-1_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.30-1_1WhatsApp-Image-2025-03-28-at-15.49.30-1.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.30-1_1.avif                                        1280w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11139-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1113a-1f9fdfe2"
+                                  sizes="(max-width: 1024px) 100vw, 1024px"
+                                  alt=""
+                                  src="images/0900aad1-4263-4498-8339-0a7d309f624f_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/0900aad1-4263-4498-8339-0a7d309f624f_10900aad1-4263-4498-8339-0a7d309f624f.avif  500w,
+                                    images/0900aad1-4263-4498-8339-0a7d309f624f_1.avif                                     1024w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1113b-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1113c-1f9fdfe2"
+                                  sizes="(max-width: 851px) 100vw, 851px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.10-18_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.10-18_1WhatsApp-Image-2025-03-28-at-15.49.10-18.avif 500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.10-18_1.avif                                         851w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1113d-1f9fdfe2"
+                              class="header78_image-list"
+                            >
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1113e-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a1113f-1f9fdfe2"
+                                  sizes="(max-width: 851px) 100vw, 851px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.09_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.09_1WhatsApp-Image-2025-03-28-at-15.49.09.avif 500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.09_1.avif                                      851w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11140-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11141-1f9fdfe2"
+                                  sizes="(max-width: 1280px) 100vw, 1280px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.30-2_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.30-2_1WhatsApp-Image-2025-03-28-at-15.49.30-2.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.30-2_1.avif                                        1280w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11142-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11143-1f9fdfe2"
+                                  sizes="(max-width: 1280px) 100vw, 1280px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.31_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31_1WhatsApp-Image-2025-03-28-at-15.49.31.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31_1WhatsApp-Image-2025-03-28-at-15.49.31.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31_1.avif                                      1280w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11144-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11145-1f9fdfe2"
+                                  sizes="(max-width: 1280px) 100vw, 1280px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.31-1_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31-1_1WhatsApp-Image-2025-03-28-at-15.49.31-1.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.31-1_1.avif                                        1280w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11146-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11147-1f9fdfe2"
+                                  sizes="(max-width: 851px) 100vw, 851px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-15.49.10-18_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.10-18_1WhatsApp-Image-2025-03-28-at-15.49.10-18.avif 500w,
+                                    images/WhatsApp-Image-2025-03-28-at-15.49.10-18_1.avif                                         851w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                              <div
+                                id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11148-1f9fdfe2"
+                                class="header78_image-wrapper"
+                              >
+                                <img
+                                  id="w-node-_5f6692e0-5741-a711-8bea-9f5206a11149-1f9fdfe2"
+                                  sizes="(max-width: 1363px) 100vw, 1363px"
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-16.00.27-1_1.avif"
+                                  loading="lazy"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.27-1_1WhatsApp-Image-2025-03-28-at-16.00.27-1.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.27-1_1WhatsApp-Image-2025-03-28-at-16.00.27-1.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.27-1_1.avif                                        1363w
+                                  "
+                                  class="header78_image"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+        </section>
+        <section
+          data-w-id="ffe61c53-9ec5-2a5d-95b2-f39b095cc4ca"
+          class="section_banner13"
+        >
+          <div class="padding-section-large _2">
+            <div class="banner13_component">
+              <h2 class="banner13_heading-top _2">
+                qué <span class="cursiva grande">puedes</span> esperar!?
+                <strong>🌶️🌶️</strong>
+              </h2>
+            </div>
+          </div>
+        </section>
+        <section class="section_portfolio17 text-color-white">
+          <div class="portfolio17_list-wrapper">
+            <div class="portfolio17_list">
+              <div class="portfolio17_item">
+                <div class="padding-global">
+                  <div class="container-large">
+                    <div class="portfolio17_content">
+                      <div class="padding-vertical padding-xhuge">
+                        <div class="text-align-center">
+                          <div class="max-width-large align-center">
+                            <div class="margin-bottom margin-small">
+                              <h2 class="heading-style-h2">
+                                Etapa <span class="numero-cursiva">1</span>:
+                                <span class="cursiva">Ingreso</span>
+                              </h2>
+                            </div>
+                            <p class="text-size-medium">
+                              Nuestras hosts te recibirán en la puerta,
+                              validarán tu entrada y te entregarán la pulsera
+                              correspondiente a la fiesta a la que tendrás
+                              acceso. Luego, deberás escanear el código QR que
+                              estará disponible en la entrada para poder acceder
+                              al cuestionario, ahí empieza la noche.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio17_background-image-wrapper">
+                  <div class="image-overlay-layer"></div>
+                  <img
+                    sizes="(max-width: 1065px) 100vw, 1065px"
+                    srcset="
+                      images/f09907fe-356b-451a-9700-c1aae5eed718_1f09907fe-356b-451a-9700-c1aae5eed718.avif  500w,
+                      images/f09907fe-356b-451a-9700-c1aae5eed718_1.avif                                     1065w
+                    "
+                    alt=""
+                    src="images/f09907fe-356b-451a-9700-c1aae5eed718_1.avif"
+                    loading="lazy"
+                    class="portfolio17_background-image"
+                  />
+                </div>
+              </div>
+              <div class="portfolio17_item">
+                <div class="padding-global">
+                  <div class="container-large">
+                    <div class="portfolio17_content">
+                      <div class="padding-vertical padding-xhuge">
+                        <div class="text-align-center">
+                          <div class="max-width-large align-center">
+                            <div class="margin-bottom margin-small">
+                              <h2 class="heading-style-h2">
+                                Etapa <span class="numero-cursiva">2</span>:
+                                <span class="cursiva"
+                                  >activaciones y cuestionario</span
+                                >
+                              </h2>
+                            </div>
+                            <p class="text-size-medium">
+                              Una vez dentro, nuestras host te asignarán una
+                              mesa para que completes el cuestionario con
+                              tranquilidad, pero no sin antes probar alguna de
+                              las activaciones que tenemos para ti.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio17_background-image-wrapper">
+                  <div class="image-overlay-layer"></div>
+                  <img
+                    sizes="(max-width: 1280px) 100vw, 1280px"
+                    srcset="
+                      images/WhatsApp-Image-2025-03-28-at-15.49.30_1WhatsApp-Image-2025-03-28-at-15.49.30.avif  500w,
+                      images/WhatsApp-Image-2025-03-28-at-15.49.30_1.avif                                      1280w
+                    "
+                    alt=""
+                    src="images/WhatsApp-Image-2025-03-28-at-15.49.30_1.avif"
+                    loading="lazy"
+                    class="portfolio17_background-image"
+                  />
+                </div>
+              </div>
+              <div class="portfolio17_item">
+                <div class="padding-global">
+                  <div class="container-large">
+                    <div class="portfolio17_content">
+                      <div class="padding-vertical padding-xhuge">
+                        <div class="text-align-center">
+                          <div class="max-width-large align-center">
+                            <div class="margin-bottom margin-small">
+                              <h2 class="heading-style-h2">
+                                Etapa
+                                <span class="numero-cursiva">3</span>: <span
+                                  class="cursiva"
+                                  >Juegos y Cambio de Mesa</span
+                                >
+                              </h2>
+                            </div>
+                            <p class="text-size-medium">
+                              Disponemos de muchos juegos para romper el hielo
+                              en las mesas, por eso, te invitaremos a jugarlos
+                              para entrar en calor. Cuando suene la alarma,
+                              vendrán los cambios de mesa.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio17_background-image-wrapper">
+                  <div class="image-overlay-layer"></div>
+                  <img
+                    loading="lazy"
+                    src="images/WhatsApp-Image-2025-03-28-at-15.48.58-12_1.avif"
+                    alt=""
+                    class="portfolio17_background-image"
+                  />
+                </div>
+              </div>
+              <div class="portfolio17_item">
+                <div class="padding-global">
+                  <div class="container-large">
+                    <div class="portfolio17_content">
+                      <div class="padding-vertical padding-xhuge">
+                        <div class="text-align-center">
+                          <div class="max-width-large align-center">
+                            <div class="margin-bottom margin-small">
+                              <h2 class="heading-style-h2">
+                                Etapa <span class="numero-cursiva">4</span>:
+                                <span class="cursiva"
+                                  >Compartir, Comer y Tomar</span
+                                >
+                              </h2>
+                            </div>
+                            <p class="text-size-medium">
+                              Podrás distenderte, pasarlo bien y disfrutar de un
+                              entretenido momento con todos los amigos que te
+                              has hecho.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio17_background-image-wrapper">
+                  <div class="image-overlay-layer"></div>
+                  <img
+                    sizes="(max-width: 1280px) 100vw, 1280px"
+                    srcset="
+                      images/WhatsApp-Image-2025-03-28-at-15.48.59-1_1WhatsApp-Image-2025-03-28-at-15.48.59-1.avif  500w,
+                      images/WhatsApp-Image-2025-03-28-at-15.48.59-1_1WhatsApp-Image-2025-03-28-at-15.48.59-1.avif  800w,
+                      images/WhatsApp-Image-2025-03-28-at-15.48.59-1_1.avif                                        1280w
+                    "
+                    alt=""
+                    src="images/WhatsApp-Image-2025-03-28-at-15.48.59-1_1.avif"
+                    loading="lazy"
+                    class="portfolio17_background-image"
+                  />
+                </div>
+              </div>
+              <div class="portfolio17_item">
+                <div class="padding-global">
+                  <div class="container-large">
+                    <div class="portfolio17_content">
+                      <div class="padding-vertical padding-xhuge">
+                        <div class="text-align-center">
+                          <div class="max-width-large align-center">
+                            <div class="margin-bottom margin-small">
+                              <h2 class="heading-style-h2">
+                                Etapa <span class="numero-cursiva">5</span>:
+                                <span class="cursiva"
+                                  >Countdown y Matchmaking</span
+                                >
+                              </h2>
+                            </div>
+                            <p class="text-size-medium">
+                              Cuando vuelva a sonar la alarma, recibirás una
+                              notificación en tu teléfono con un link para saber
+                              quién es tu match. Eso te llevará a un
+                              temporizador de 60 segundos para saber quién es tu
+                              match.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio17_background-image-wrapper">
+                  <div class="image-overlay-layer"></div>
+                  <img
+                    sizes="(max-width: 851px) 100vw, 851px"
+                    srcset="
+                      images/WhatsApp-Image-2025-03-28-at-15.49.09_1WhatsApp-Image-2025-03-28-at-15.49.09.avif 500w,
+                      images/WhatsApp-Image-2025-03-28-at-15.49.09_1.avif                                      851w
+                    "
+                    alt=""
+                    src="images/WhatsApp-Image-2025-03-28-at-15.49.09_1.avif"
+                    loading="lazy"
+                    class="portfolio17_background-image"
+                  />
+                </div>
+              </div>
+              <div class="portfolio17_item">
+                <div class="padding-global">
+                  <div class="container-large">
+                    <div class="portfolio17_content">
+                      <div class="padding-vertical padding-xhuge">
+                        <div class="text-align-center">
+                          <div class="max-width-large align-center">
+                            <div class="margin-bottom margin-small">
+                              <h2 class="heading-style-h2">
+                                Etapa <span class="numero-cursiva">6</span>:
+                                <span class="cursiva">revelacion</span>
+                              </h2>
+                            </div>
+                            <p class="text-size-medium">
+                              Al saber quién es tu match, el sistema dirá por
+                              qué matchearon y habrán algunas preguntas para
+                              conectar.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio17_background-image-wrapper">
+                  <div class="image-overlay-layer"></div>
+                  <img
+                    sizes="(max-width: 1065px) 100vw, 1065px"
+                    srcset="
+                      images/54ec6f59-f43c-4be0-a823-693f217fc53f_154ec6f59-f43c-4be0-a823-693f217fc53f.avif  500w,
+                      images/54ec6f59-f43c-4be0-a823-693f217fc53f_1.avif                                     1065w
+                    "
+                    alt=""
+                    src="images/54ec6f59-f43c-4be0-a823-693f217fc53f_1.avif"
+                    loading="lazy"
+                    class="portfolio17_background-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section_event15">
+          <section id="eventos" class="padding-global">
+            <div class="container-large">
+              <div class="padding-section-large">
+                <div class="event15_component">
+                  <div class="margin-bottom margin-xxlarge">
+                    <div class="event15_heading-wrapper">
+                      <div class="event15_heading">
+                        <div class="max-width-large">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h2">
+                              <span>próximos </span
+                              ><span class="text-span-5">Eventos</span>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    data-delay="4000"
+                    data-animation="slide"
+                    class="event15_slider w-slider"
+                    data-autoplay="false"
+                    data-easing="ease"
+                    data-hide-arrows="false"
+                    data-disable-swipe="false"
+                    data-autoplay-limit="0"
+                    data-nav-spacing="3"
+                    data-duration="500"
+                    data-infinite="true"
+                  >
+                    <div class="event15_mask w-slider-mask">
+                      <div class="event15_slide w-slide">
+                        <div class="event15_item">
+                          <a href="#" class="event15_item-link w-inline-block">
+                            <div class="margin-bottom margin-small">
+                              <div class="event15_image-wrapper">
+                                <div class="event15_date-wrapper">
+                                  <div class="text-size-small">Mie</div>
+                                  <div class="heading-style-h4">23</div>
+                                  <div class="text-size-small">Jul 2025</div>
+                                </div>
+                                <img
+                                  sizes="(max-width: 1363px) 100vw, 1363px"
+                                  srcset="
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.27-2_1WhatsApp-Image-2025-03-28-at-16.00.27-2.avif  500w,
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.27-2_1WhatsApp-Image-2025-03-28-at-16.00.27-2.avif  800w,
+                                    images/WhatsApp-Image-2025-03-28-at-16.00.27-2_1.avif                                        1363w
+                                  "
+                                  alt=""
+                                  src="images/WhatsApp-Image-2025-03-28-at-16.00.27-2_1.avif"
+                                  loading="lazy"
+                                  class="event15_image"
+                                />
+                              </div>
+                            </div>
+                            <h3 class="heading-style-h5">
+                              Frequenza Experience +35
+                            </h3>
+                            <div class="margin-bottom margin-xxsmall">
+                              <div>20h - Bardot</div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="slider-arrow is-bottom-previous w-slider-arrow-left"
+                    >
+                      <div
+                        bind="a7d63b7a-ed6f-016b-da6c-3f5523d34b10"
+                        class="slider-arrow-icon_default w-embed"
+                      >
+                        <svg
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 16 16"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M3.31066 8.75001L9.03033 14.4697L7.96967 15.5303L0.439339 8.00001L7.96967 0.469676L9.03033 1.53034L3.31066 7.25001L15.5 7.25L15.5 8.75L3.31066 8.75001Z"
+                            fill="currentColor"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      class="slider-arrow is-bottom-next w-slider-arrow-right"
+                    >
+                      <div
+                        bind="a7d63b7a-ed6f-016b-da6c-3f5523d34b12"
+                        class="slider-arrow-icon_default w-embed"
+                      >
+                        <svg
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 16 16"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12.6893 7.25L6.96967 1.53033L8.03033 0.469666L15.5607 8L8.03033 15.5303L6.96967 14.4697L12.6893 8.75H0.5V7.25H12.6893Z"
+                            fill="currentColor"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="event15_slide-nav w-slider-nav w-round"></div>
+                  </div>
+                  <div class="show-mobile-landscape">
+                    <div class="margin-top margin-xxlarge">
+                      <div class="button-group is-right">
+                        <a href="#" class="button-3 is-secondary w-button"
+                          >View all</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+      <footer
+        bind="a8a5277b-1144-3109-546d-6bce957f75ef"
+        class="footer2_component color-scheme-1"
+      >
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-vertical padding-xxlarge">
+              <div class="padding-bottom padding-xxlarge">
+                <div class="w-layout-grid footer2_top-wrapper">
+                  <div class="w-layout-grid footer2_left-wrapper">
+                    <a
+                      href="#"
+                      id="w-node-a8a5277b-1144-3109-546d-6bce957f75f6-957f75ef"
+                      class="footer2_logo-link w-nav-brand"
+                      ><img
+                        sizes="(max-width: 479px) 98vw, (max-width: 767px) 99vw, (max-width: 1080px) 100vw, 1080px"
+                        srcset="
+                          images/logo-sin-fondo_1logo-sin-fondo.avif  500w,
+                          images/logo-sin-fondo_1.avif               1080w
+                        "
+                        alt=""
+                        src="images/logo-sin-fondo_1.avif"
+                        loading="lazy"
+                        class="footer2_logo"
+                    /></a>
+                  </div>
+                </div>
+                <div class="w-layout-grid footer2_social-list">
+                  <a
+                    href="https://www.instagram.com/frequenzaexperience/"
+                    class="footer2_social-link w-inline-block"
+                  >
+                    <div
+                      bind="a8a5277b-1144-3109-546d-6bce957f764a"
+                      class="icon-embed-xsmall w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        height="100%"
+                        viewbox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M16 3H8C5.23858 3 3 5.23858 3 8V16C3 18.7614 5.23858 21 8 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3ZM19.25 16C19.2445 17.7926 17.7926 19.2445 16 19.25H8C6.20735 19.2445 4.75549 17.7926 4.75 16V8C4.75549 6.20735 6.20735 4.75549 8 4.75H16C17.7926 4.75549 19.2445 6.20735 19.25 8V16ZM16.75 8.25C17.3023 8.25 17.75 7.80228 17.75 7.25C17.75 6.69772 17.3023 6.25 16.75 6.25C16.1977 6.25 15.75 6.69772 15.75 7.25C15.75 7.80228 16.1977 8.25 16.75 8.25ZM12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5027 10.8057 16.0294 9.65957 15.1849 8.81508C14.3404 7.97059 13.1943 7.49734 12 7.5ZM9.25 12C9.25 13.5188 10.4812 14.75 12 14.75C13.5188 14.75 14.75 13.5188 14.75 12C14.75 10.4812 13.5188 9.25 12 9.25C10.4812 9.25 9.25 10.4812 9.25 12Z"
+                          fill="CurrentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="#" class="footer2_social-link w-inline-block">
+                    <div
+                      bind="a8a5277b-1144-3109-546d-6bce957f7650"
+                      class="icon-embed-xsmall w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        height="100%"
+                        viewbox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M20.5686 4.77345C21.5163 5.02692 22.2555 5.76903 22.5118 6.71673C23.1821 9.42042 23.1385 14.5321 22.5259 17.278C22.2724 18.2257 21.5303 18.965 20.5826 19.2213C17.9071 19.8831 5.92356 19.8015 3.40294 19.2213C2.45524 18.9678 1.71595 18.2257 1.45966 17.278C0.827391 14.7011 0.871044 9.25144 1.44558 6.73081C1.69905 5.78311 2.44116 5.04382 3.38886 4.78753C6.96561 4.0412 19.2956 4.282 20.5686 4.77345ZM9.86682 8.70227L15.6122 11.9974L9.86682 15.2925V8.70227Z"
+                          fill="CurrentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="divider-horizontal"></div>
+              <div class="padding-top padding-medium"></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67e6c7a70b27b7bf1f9fdf68"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <script>
+      let lastScrollTop = 0
+      const navbar = document.querySelector('.navbar3_component-2')
+      window.addEventListener(
+        'scroll',
+        function () {
+          const currentScroll =
+            window.pageYOffset || document.documentElement.scrollTop
+          if (currentScroll > lastScrollTop) {
+            // Scroll hacia abajo
+            navbar.style.transform = 'translateY(-100%)'
+            navbar.style.transition = 'transform 0.3s ease'
+          } else {
+            // Scroll hacia arriba
+            navbar.style.transform = 'translateY(0%)'
+            navbar.style.transition = 'transform 0.3s ease'
+          }
+          lastScrollTop = currentScroll <= 0 ? 0 : currentScroll
+        },
+        false
+      )
+    </script>
+    <!--  move the css to head  -->
+    <style>
+      [data-gsap] {
+        visibility: hidden;
+      }</style
+    ><!--  keep js in the body  -->
+    <script async="" src="https://unpkg.com/split-type"></script>
+    <script
+      async=""
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+    ></script>
+    <script
+      async=""
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+    ></script>
+    <script async="" src="https://gfluo.b-cdn.net/v/gfluo-free.min.js"></script>
+    <!--  move the css to head  -->
+    <style>
+      [data-gsap] {
+        visibility: hidden;
+      }</style
+    ><!--  keep js in the body  -->
+    <script async="" src="https://unpkg.com/split-type"></script>
+    <script
+      async=""
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+    ></script>
+    <script
+      async=""
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
+    ></script>
+    <script async="" src="https://gfluo.b-cdn.net/v/gfluo-free.min.js"></script>
+
+    <!-- POPUP NEWSLETTER -->
+    <div id="newsletter-popup" style="display: none" class="popup-overlay">
+      <div class="popup-box">
+        <h2>Suscríbete a nuestro newsletter</h2>
+        <p>Recibe novedades y experiencias exclusivas de Frequenza</p>
+        <input type="email" placeholder="Tu email" />
+        <button onclick="closePopup()">Suscribirme</button>
+      </div>
+    </div>
+
+    <script>
+      // Mostrar al cargar
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          document.getElementById('newsletter-popup').style.display = 'flex'
+        }, 1000) // 1 segundo de delay
+      })
+
+      // Cerrar popup
+      function closePopup() {
+        document.getElementById('newsletter-popup').style.display = 'none'
+      }
+    </script>
+  </body>
+</html>
